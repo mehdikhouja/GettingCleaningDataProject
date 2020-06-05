@@ -13,7 +13,6 @@ The reposiroty includes the follwing files:
 2. README.md: This file
 3. CodeBook.md: The code book for the variables of the tidy dataset
 4. average_summary.txt: the final tidy dataset obtained at step 5
-5. UCI HAR Dataset: The original datasets
 
 ## Analysis steps
 1. Reading the Data: The different data are red into ```{data.frame}``` using ```{read.table}```: Features Names, Activity labels and for the test and training sets (Set, labels and subject)
@@ -35,3 +34,14 @@ The reposiroty includes the follwing files:
     c. Changing variable names by adding avr_ to all variables
 
 8. Writing the tidy data to a text file using ```{write.table}```
+
+## Tidy Data
+In tidy data:
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+When joining the test and trainig sets, the result is not tidy because rules 1 and 2 are not statisfied. There are duplicate varible names and observation of the same subject and activity are not unique. By selecting only the mean and std measurements te first issue is resolved. An observation column were added to resolve the second issue.
+
+Regarding the final dataset with the mean values, it is tidy. Each varible forms a column. Each oservation froms a row: the row key is a pair (persongId, activityName). the third rule is statisfied.

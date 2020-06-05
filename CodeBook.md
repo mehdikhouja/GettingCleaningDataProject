@@ -2,6 +2,7 @@
 title: "Code Book"
 output: html_document
 ---
+## Code Book
 | Position | Column Name                           | Description                                                                                                                                         |
 |----------|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1        | personId                              | Numeric identifier of subject of the experiment. Ranges from 1 to 30                                                                                |
@@ -75,14 +76,13 @@ output: html_document
 | 69       | meanOfFreqBodyGyroMeanFreqZ           | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope means in Z dimension of the phone                    |
 | 70       | meanOfFreqBodyAccMagMean              | Numeric variable measuring the mean of frequency domain body acceleration magnitude means                                                           |
 | 71       | meanOfFreqBodyAccMagStd               | Numeric variable measuring the mean of frequency domain body acceleration magnitude standard deviation                                              |
-| 72       | meanOfFreqBodyAccMagMeanFreq          |                                                                                                                                                     |
+| 72       | meanOfFreqBodyAccMagMeanFreq          | Numeric variable measuring the mean of frequency domain body acceleration magnitude frequency means                                                 |
 | 73       | meanOfFreqBodyBodyAccJerkMagMean      | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude means                                      |
 | 74       | meanOfFreqBodyBodyAccJerkMagStd       | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude standard deviation                         |
-| 75       | meanOfFreqBodyBodyAccJerkMagMeanFreq  |                                                                                                                                                     |
+| 75       | meanOfFreqBodyBodyAccJerkMagMeanFreq  | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope frequency magnitude means                            |
 | 76       | meanOfFreqBodyBodyGyroMagMean         | Numeric variable measuring the mean of frequency domain body velocity from the gyrospcope magnitude means                                           |
-| 77       | meanOfFreqBodyBodyGyroMagStd          | Numeric variable measuring the mean of frequency domain body velocity from the gyrospcope magnitude standard deviation in X dimension of the phone  |
-| 78       | meanOfFreqBodyBodyGyroMagMeanFreq     | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude means                                      |
-| 79       | meanOfFreqBodyBodyGyroJerkMagMean     | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude standard deviation                         |
-| 80       | meanOfFreqBodyBodyGyroJerkMagStd      |                                                                                                                                                     |
-| 81       | meanOfFreqBodyBodyGyroJerkMagMeanFreq |                                                                                                                                                     |
-
+| 77       | meanOfFreqBodyBodyGyroMagStd          | Numeric variable measuring the mean of frequency domain body velocity from the gyrospcope magnitude standard deviation                              |
+| 78       | meanOfFreqBodyBodyGyroMagMeanFreq     | Numeric variable measuring the mean of frequency domain body velocity from the gyrospcope frequency magnitude means                                 |
+| 79       | meanOfFreqBodyBodyGyroJerkMagMean     | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude means                                      |
+| 80       | meanOfFreqBodyBodyGyroJerkMagStd      | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude standard deviation                         |
+| 81       | meanOfFreqBodyBodyGyroJerkMagMeanFreq | Numeric variable measuring the mean of frequency domain body velocity jerk from the gyrospcope magnitude frequency means                            |
